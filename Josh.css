@@ -862,14 +862,23 @@ letter-spacing: 0.1px;
   color: #374754;
   
 }
-.map{
-width: 516px;
-height: 343.19px;
-overflow: hidden;
-padding-top: 50px;
-padding-bottom: 50px;
-
+.map {
+  width: 100%;
+  max-width: 516px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
+
+.map iframe {
+  width: 100%;
+  height: 323.19px;
+  border: 0;
+  
+}
+
 
 .modal-container{
   position: fixed;
