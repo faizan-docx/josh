@@ -71,11 +71,13 @@
 }
 .icon {
   display: flex;
-  gap: 12px;
+  gap: 25px;
   align-items: center;
   z-index: 1;
   flex: 1;
   justify-content: flex-end;
+  margin-right: 120px;
+  
  }
  
  .icon i {
@@ -115,6 +117,7 @@
   color: white;
   z-index: 1;
   gap: 7px;
+  font-style:initial;
 }
 
 #heading {
@@ -213,6 +216,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
+margin-left: 120px;
+
 }
 
 .figmaLogo img {
